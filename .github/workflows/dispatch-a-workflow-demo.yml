@@ -1,4 +1,4 @@
-name: github actions demo
+name: dispatch-a-workflow-demo
 run-name: ${{ github.actor }} is testing out gihub acitions
 
 on: [workflow_dispatch]
