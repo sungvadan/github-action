@@ -11,6 +11,6 @@ jobs:
       - 
         name: Hello world action step
         id: hello
-        uses: sungvadan/hello-world-docker-action@v1
+        uses: sungvadan/hello-world-docker-action@v2
         with:
           who-to-greet: 'Van Truong PHAN'
