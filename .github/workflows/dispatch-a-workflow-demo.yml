@@ -8,3 +8,9 @@ jobs:
     steps:
       - run: echo "$ENVE_VAR"
       - run: echo "$REPOVAR"
+      - 
+        name: Hello world action step
+        id: hello
+        uses: sungvadan/hello-world-docker-action@v1
+        with:
+          who-to-greet: 'Van Truong PHAN'
